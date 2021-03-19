@@ -18,8 +18,8 @@ namespace CadastrApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int a = 1;
-            int b = 2;
+            int a = 10;
+            int b = 4;
             int c = a + b;
             label1.Text = c.ToString();
         }
