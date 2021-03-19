@@ -23,5 +23,10 @@ namespace CadastrApp
             int c = a + b;
             label1.Text = c.ToString();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
